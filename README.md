@@ -1,8 +1,10 @@
 # In-Solez App
- A social platform app that lets users to view a database of sneakers, save it to their collection, showcase, compare, trade, and sell sneakers with other users.
+ A social platform app that lets users to view a database of sneakers, save it to their collection, showcase, and possibly compare, trade, and sell sneakers with other users.
 #
 
 Website Deployment Link: https://in-solez.herokuapp.com/
+Presentation Link: https://docs.google.com/presentation/d/1DGQWeuPULyCkc_kEWywL5fuEra0Wy6cOVyxLSWeEQl4/edit?usp=sharing
+Demo Video Link: https://youtu.be/IfFXNL_tDx4
 #
 ## Table of Contents
 * [Project Description](#description)
