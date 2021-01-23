@@ -1,19 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "inSolez_db",
-    "host": "127.0.0.1",
+    "username": "f1bms02anhafhrpg",
+    "password": "apgvfrlr5l8fh4zy",
+    "database": "s9ghh4ako139pbd5",
+    "host": "z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "f1bms02anhafhrpg",
+    "password": "apgvfrlr5l8fh4zy",
+    "database": "s9ghh4ako139pbd5",
+    "host": "z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
+    "username": "f1bms02anhafhrpg",
+    "password": "apgvfrlr5l8fh4zy",
+    "database": "s9ghh4ako139pbd5",
+    "host": "z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "use_env_variable": "JAWSDB_URL",
     "dialect": "mysql"
   }

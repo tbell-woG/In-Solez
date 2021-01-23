@@ -3,17 +3,6 @@ const LocalStrategy = require("passport-local").Strategy;
 
 const db = require("../models");
 
-if (process.env.JAWSDB_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_URL);
-} else {
-  connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "root",
-    database: "inSolez_db"
-  });
-}
-
 // Telling passport we want to use a Local Strategy. In other words, we want login with a username/email and password
 
 passport.use(
@@ -58,9 +47,6 @@ passport.serializeUser((user, cb) => {
 passport.deserializeUser((user, cb) => {
   return cb(null, user);
 });
-
-// This makes the connection
-connection.connect();
 
 // Exporting our configured passport
 module.exports = passport;
